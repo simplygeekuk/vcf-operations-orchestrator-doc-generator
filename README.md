@@ -9,7 +9,11 @@ This tool is designed to be used on a repository managed using the Build Tools f
 ```node vcf-oprations-orchestrator-doc-generator.js <actions_root_directory> <docs_output_directory>```
 
 Example:  
-```node vcf-oprations-orchestrator-doc-generator.js \src\main\resources .\docs```
+```node vcf-oprations-orchestrator-doc-generator.js source\vro-actions\src\main\resources\ .\docs```  
+
+🗒️The **docs_output_directory** will automatically be created if it doesn't exist  
+
+⚠️Ensure the **actions_root_directory** is the top-level directory for the Orchestrator Actions.
 
 ## Features
 #️⃣Documents Actions that are used as Class wrappers  
@@ -21,6 +25,7 @@ Example:
 #️⃣Preserves examples and displays them in JavaScript highlighting  
 #️⃣Outputs in Markdown (md) files  
 #️⃣Creates a root-level README linking to all sub-pages  
+#️⃣Documentation folder structure honours the code hierarchy
 
 ## Example of Class documentation
 ![image](https://github.com/user-attachments/assets/47eaf2dc-22d2-4f94-9f03-39afa51e0d39)
