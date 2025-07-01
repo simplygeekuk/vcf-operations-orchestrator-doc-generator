@@ -6,10 +6,10 @@ This tool is intended for use with repositories managed by the **Build Tools for
 #️⃣Source code checked out locally
 
 ## Usage
-```node vcf-oprations-orchestrator-doc-generator.js <actions_root_directory> <docs_output_directory>```
+```node vcf-operations-orchestrator-doc-generator.js <actions_root_directory> <docs_output_directory>```
 
 Example:  
-```node vcf-oprations-orchestrator-doc-generator.js source\vro-actions\src\main\resources\ .\docs```  
+```node vcf-operations-orchestrator-doc-generator.js source\vro-actions\src\main\resources\ .\docs```  
 
 🗒️The **docs_output_directory** will automatically be created if it doesn't exist  
 
