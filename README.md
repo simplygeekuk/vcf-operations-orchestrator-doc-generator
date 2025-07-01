@@ -1,5 +1,5 @@
 # vcf-oprations-orchestrator-doc-generator
-This tool is designed to be used on a repository managed using the Build Tools for VMware Aria and can be used to document all VCF Operations Orchestrator Actions.
+This tool is intended for use with repositories managed by the **Build Tools for VMware Aria** and is designed to automatically generate documentation for all VCF Operations Orchestrator Actions.
 
 ## Requirements
 #️⃣Node.js (should already be installed and available when using Build Tools for VMware Aria)  
