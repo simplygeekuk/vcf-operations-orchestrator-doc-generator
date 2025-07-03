@@ -13,7 +13,7 @@ Example:
 
 🗒️The **docs_output_directory** will automatically be created if it doesn't exist  
 
-⚠️Ensure the **actions_root_directory** is the top-level directory for the Orchestrator Actions.
+⚠️Ensure the **actions_root_directory** is the top-level directory for the Orchestrator Actions. This is before the module (namespace) path, typically src\main\resources.
 
 ## Features
 #️⃣Documents Actions that are used as Class wrappers  
