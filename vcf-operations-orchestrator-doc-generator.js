@@ -171,11 +171,11 @@ function processJsDocTags(name, jsdoc) {
             if (match) {
                 const exampleLines = [match[1]];
                 for (let i = idx + 1; i < lines.length; i++) {
-                    const nextLine = lines[i].replace(/^\s*\*\s?/, "").trim();
+                    const nextLine = lines[i].replace(/^\s*\*\s?/, "");
                     if (nextLine.startsWith("@")) break;
                     exampleLines.push(nextLine);
                 }
-                jsdocObject.example = exampleLines.join("\n").trim();
+                jsdocObject.example = exampleLines.join("\n");
             }
         } else if (clean.startsWith("@private")) {
             capturingDesc = false;
